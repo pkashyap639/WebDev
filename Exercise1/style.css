@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.main-grid{
+    display: grid;
+    margin: 0 auto;
+    width: 80%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.main-grid-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-grid-flex{
+    flex: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
