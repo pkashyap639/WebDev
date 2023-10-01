@@ -9,7 +9,7 @@ body{
     display: grid;
     margin: 0 auto;
     width: 80%;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 10px;
 }
 
@@ -24,4 +24,36 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.profile-photo-box{
+    margin-top: 2rem;
+    width: 15rem;
+    border-radius: 100%;
+}
+.profile-photo{
+    width: 100%;
+    border-radius: 100%;
+}
+
+.name{
+    color: #000;
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-bottom: 0;
+}
+
+.second-name{
+    color: #A01D21;
+}
+
+.title{
+    color: #000;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 0;
+}
+
+.subtitle{
+    color: #A01D21;
 }
